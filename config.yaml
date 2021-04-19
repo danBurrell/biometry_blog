@@ -1,0 +1,129 @@
+baseurl: https://example.com/
+languageCode: en_US
+title: Hugo Tikva Theme
+theme: hugo-tikva
+DefaultContentLanguage: en
+paginate: 2
+params:
+  analytics:
+    matomo:
+      enabled: no
+      siteId: 0
+      url: https://analytics.example.com
+    yandexmetrica:
+      enabled: no
+      tagNumber: 012345678
+  appendSiteTitle: yes
+  dateFormat: 02.01.2006
+  fonts:
+    body: ''
+    bodyGoogleFont: no
+    bodySize: ''
+    bodyVariant: ''
+    headerSubtitle: Exo
+    headerSubtitleGoogleFont: yes
+    headerSubtitleSize: 30px
+    headerSubtitleVariant: '600'
+    headerTitle: Exo
+    headerTitleGoogleFont: yes
+    headerTitleSize: 50px
+    headerTitleVariant: '800'
+    headline: Open Sans
+    headlineBaseSize: ''
+    headlineGoogleFont: yes
+    headlineVariant: ''
+    navbarGoogleFont: no
+    navbarSize: 20px
+    navbarVariant: ''
+  hideMeta: no
+  meta:
+    DC.Copyright: Karl Mustermann
+    author: John Doe
+    description: This is only an example value for the meta description
+    keywords: example, site, theme, tikva
+  navbar:
+    adjustHeader: 20
+    backgroundColor: ''
+    bgScheme: bg-primary
+    colorScheme: navbar-dark
+    style: header
+    textAlignment: ''
+  showDate: yes
+  showNumberOfWords: no
+  sidebar:
+    demoColumn:
+      - text: <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod.
+          Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum
+          nulla sed consectetur.</p>
+        title: About
+      - text: 'You can place everything you want in this area. Just add HTML or Markdown
+          files into a folder named "sections/sidebar" in your content folder and
+          declare the folder as "headless". This is an example of modifying the style
+          with an individual "sidebar_item.html" partial. '
+        title: Example Content
+    enabled: yes
+    style: right
+  subtitle: Example of Subtitle
+  theme:
+    backgroundColor: ''
+    backgroundImage: ''
+    backgroundImageRepeat: ''
+    bootstrapTheme: solar
+    footer:
+      backgroundColor: '#29281f'
+      demoColumn:
+        - text: This is a placeholder for a content file of the footer. You can use
+            Markdown or HTML here. Just place your content files into a folder "sections/footer"
+            in your content directory, make the page bundle "headless" and enable
+            the footer in the site config file.
+        - text: More footer content.
+        - text: To change this, please have a look at the README.md and the comments
+            of the footer section in the config.toml file.
+      enabled: yes
+      fontColor: '#f9fcf9'
+      linkColor: ''
+    header:
+      altText: alt text for header image
+      backgroundColor: ''
+      displayHeaderText: yes
+      fontColor: ''
+      fontColorSubtitle: '#333333'
+      fontColorTitle: '#073642'
+      image: img/header_bg_example.jpg
+      linkColor: ''
+      moveTitle: no
+      overlayAlignment: lt
+      overlayBackgroundColor: '#000000'
+      overlayDistanceBetween: '0'
+      overlayDistanceHorizontal: '20'
+      overlayDistanceVertical: '20'
+      overlayTransparency: '0'
+      titleOnImage: yes
+    subfooter:
+      backgroundColor: ''
+      demoContent: 'Powered by <a href="https://gohugo.io">Hugo</a>. Theme <a href="https://github.com/geschke/hugo-tikva">Tikva</a>
+        by <a href="https://www.kuerbis.org">Ralf Geschke</a>. As you can see, this
+        text is only an example of the area below the footer. To change this, please
+        have a look at the included example site and the section "Subfooter configuration"
+        in the config.toml file. '
+      enabled: yes
+      fontColor: ''
+      linkColor: ''
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: posts
+      name: Blog
+      url: /posts/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
