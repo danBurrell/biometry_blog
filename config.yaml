@@ -1,6 +1,6 @@
 baseurl: https://cch-biometry-blog.netlify.app/
 languageCode: en_US
-title: Hugo Tikva Theme
+title: Biometrie dela phytopathologie
 theme: hugo-tikva
 DefaultContentLanguage: en
 paginate: 2
@@ -22,11 +22,11 @@ params:
     bodyVariant: ''
     headerSubtitle: Exo
     headerSubtitleGoogleFont: yes
-    headerSubtitleSize: 30px
+    headerSubtitleSize: 20px
     headerSubtitleVariant: '600'
     headerTitle: Exo
     headerTitleGoogleFont: yes
-    headerTitleSize: 50px
+    headerTitleSize: 40px
     headerTitleVariant: '800'
     headline: Open Sans
     headlineBaseSize: ''
@@ -63,7 +63,7 @@ params:
         title: Example Content
     enabled: yes
     style: right
-  subtitle: Example of Subtitle
+  subtitle: Healthier research practices for healthier crops 
   theme:
     backgroundColor: ''
     backgroundImage: ''
