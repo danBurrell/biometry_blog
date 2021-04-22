@@ -1,6 +1,6 @@
 baseurl: https://cch-biometry-blog.netlify.app/
 languageCode: en_US
-title: Biometrie dela phytopathologie
+title: Biometrie de la phytopathologie
 theme: hugo-tikva
 DefaultContentLanguage: en
 paginate: 2
@@ -98,7 +98,7 @@ params:
       overlayDistanceHorizontal: '20'
       overlayDistanceVertical: '20'
       overlayTransparency: '0'
-      titleOnImage: yes
+      titleOnImage: no
     subfooter:
       backgroundColor: ''
       demoContent: 'Powered by <a href="https://gohugo.io">Hugo</a>. Theme <a href="https://github.com/geschke/hugo-tikva">Tikva</a>
