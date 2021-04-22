@@ -87,7 +87,7 @@ params:
       backgroundColor: ''
       displayHeaderText: yes
       fontColor: ''
-      fontColorSubtitle: '#cfa02b'
+      fontColorSubtitle: '#ffffff'
       fontColorTitle: '#177834'
       image: img/header_bg_example.jpg
       linkColor: ''
