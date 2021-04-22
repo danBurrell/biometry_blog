@@ -1,5 +1,5 @@
 baseurl: https://cch-biometry-blog.netlify.app/
-languageCode: en_US
+languageCode: en_UK
 title: Biometrie de la phytopathologie
 theme: hugo-tikva
 DefaultContentLanguage: en
@@ -38,7 +38,7 @@ params:
   hideMeta: no
   meta:
     DC.Copyright: Karl Mustermann
-    author: John Doe
+    author: Daniel Burrell
     description: This is only an example value for the meta description
     keywords: example, site, theme, tikva
   navbar:
@@ -61,9 +61,9 @@ params:
           declare the folder as "headless". This is an example of modifying the style
           with an individual "sidebar_item.html" partial. '
         title: Example Content
-    enabled: yes
+    enabled: no
     style: right
-  subtitle: Healthier research practices for healthier crops 
+  subtitle: Healthy research practices leading to healthy crops 
   theme:
     backgroundColor: ''
     backgroundImage: ''
@@ -102,10 +102,7 @@ params:
     subfooter:
       backgroundColor: ''
       demoContent: 'Powered by <a href="https://gohugo.io">Hugo</a>. Theme <a href="https://github.com/geschke/hugo-tikva">Tikva</a>
-        by <a href="https://www.kuerbis.org">Ralf Geschke</a>. As you can see, this
-        text is only an example of the area below the footer. To change this, please
-        have a look at the included example site and the section "Subfooter configuration"
-        in the config.toml file. '
+        by <a href="https://www.kuerbis.org">Ralf Geschke</a>. Posts by Daniel Burrell. '
       enabled: yes
       fontColor: ''
       linkColor: ''
