@@ -3,6 +3,6 @@ date: "2021-20-04 T21:52:00+01:00"
 title: "Welcome"
 ---
 
-## This is a h2 header
+## This is a biometry blog
 
-And here is the place for your content. This is the "_index.md" file, so this is the main or home page of your site. Please have a look at the Hugo documentation to add some senseful content here. 
+Here you will find the regular musings of a Biometrician working in crop pathology, epidemiology and related areas. I hope you find it informative. 
